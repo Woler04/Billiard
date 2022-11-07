@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Billiard.Models;
 
 namespace Billiard.Models
 {
@@ -10,5 +11,7 @@ namespace Billiard.Models
         }
 
         public DbSet<BilliardTables> Billiards { get; set; }
+
+        public DbSet<Billiard.Models.Reservations> Reservations { get; set; }
     }
 }
