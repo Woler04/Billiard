@@ -13,5 +13,7 @@ namespace Billiard.Models
         public DbSet<BilliardTables> Billiards { get; set; }
 
         public DbSet<Billiard.Models.Reservations> Reservations { get; set; }
+
+        public DbSet<Billiard.Models.Users> Users { get; set; }
     }
 }
