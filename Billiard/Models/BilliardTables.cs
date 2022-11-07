@@ -2,7 +2,7 @@
 
 namespace Billiard.Models
 {
-    public class Billiard
+    public class BilliardTables
     {
         [Key]
         public int Id { get; set; }

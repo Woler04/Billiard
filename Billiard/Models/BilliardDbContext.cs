@@ -9,6 +9,6 @@ namespace Billiard.Models
 
         }
 
-        public DbSet<Billiard> Billiards { get; set; }
+        public DbSet<BilliardTables> Billiards { get; set; }
     }
 }
