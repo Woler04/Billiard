@@ -21,7 +21,7 @@ namespace Billiard.Controllers
         // GET: Billiards
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Billiards.ToListAsync());
+            return View(await _context.Billiards.ToListAsync());
         }
 
         // GET: Billiards/Details/5
